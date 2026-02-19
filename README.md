@@ -2,7 +2,7 @@
 
 # Lambda RPC Comparison Test
 
-Benchmarks `eth_call` response times between two RPC providers (QuickNode vs Alchemy) across 8 Uniswap V3 call patterns, running multiple iterations to produce p50/p95/p99 latency stats.
+Benchmarks `eth_call` response times between two endpoints (pointing 2 different clusters), running multiple iterations to produce p50/p95/p99 latency stats.
 
 ## Setup
 
