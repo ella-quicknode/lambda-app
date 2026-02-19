@@ -37,6 +37,8 @@ nano .env
 
 ## Run
 
+cd into the `lambda-app` directory, run this: 
+
 ```bash
 node local_test.js
 ```
