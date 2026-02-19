@@ -16,6 +16,11 @@ sudo dnf install -y nodejs
 **2. Install dependencies**
 
 ```bash
+# Clone the repo (creates the folder automatically)
+git clone https://github.com/ella-quicknode/lambda-app.git
+cd lambda-app
+
+# Install dotenv (npm doesn't need init first for a single package)
 npm install dotenv
 ```
 
@@ -24,8 +29,10 @@ npm install dotenv
 Create a `.env` file in this directory:
 
 ```
-qn_eth_mainnet=https://your-quicknode-endpoint
-alchemy_eth_mainnet=https://your-alchemy-endpoint
+nano .env
+# Add below variables
+# qn_eth_mainnet=https://... 
+# qn_eth_mainnet_2=https://...
 ```
 
 ## Run
