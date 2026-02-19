@@ -9,9 +9,6 @@ Benchmarks `eth_call` response times between two RPC providers (QuickNode vs Alc
 **1. Install Node.js**
 
 ```bash
-# macOS
-brew install node
-
 # Amazon Linux / EC2
 sudo dnf install -y nodejs
 ```
