@@ -1,6 +1,4 @@
-# lambda-app
-
-# Lambda RPC Comparison Test
+# lambda-app tests run from EC2 instance
 
 Benchmarks `eth_call` response times between two endpoints (pointing 2 different clusters), running multiple iterations to produce p50/p95/p99 latency stats.
 
